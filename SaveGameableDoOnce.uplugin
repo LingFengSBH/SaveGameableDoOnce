@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SaveGameableDoOnce",
+	"Description": "A Node in blueprint which you can use as 'Do Once',but it can be saved",
+	"Category": "Other",
+	"CreatedBy": "SunBoHeng(LingFeng)",
+	"CreatedByURL": "https://space.bilibili.com/168173226?spm_id_from=333.1007.0.0",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SaveGameableDoOnce",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms":
+			[
+				"Win64"
+			]
+		},
+		
+		{
+			"Name": "SGDoOnceEditorNode",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms":
+			[
+				"Win64"
+			]
+		}
+	]
+}
