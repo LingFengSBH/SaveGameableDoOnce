@@ -37,10 +37,8 @@ public class SaveGameableDoOnce : ModuleRules
 			new string[]
 			{
 				"CoreUObject",
-				"Engine",
-				"Kismet"
+				"Engine"
 				
-
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
