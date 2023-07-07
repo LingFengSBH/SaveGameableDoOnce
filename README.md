@@ -11,7 +11,7 @@ A plugin for UnrealEngine,provides a blueprint node like "Do Once",but can be sa
 - So I developed this plugin,and finished our save game system by simply replacing the blueprint of "Do Once" macro in engine:-)
 ## How It be Realized
 ### Main Idea
-- If we create a specific name for each "SaveGameable Do Once" node,and each time we excute it,we tell a manager that this node has been excuted.Then,that manager will know who has excuted and we can add them to a map.
+- If we create a specific name for each "SaveGameable Do Once" node,and each time we execute  it,we tell a manager that this node has been excuted.Then,that manager will know who has excuted and we can add them to a map.
 - So that each time we call a "SaveGameable Do Once" node,we can find if this node is in that map?If not ,it means this node hasn't been excuted.  
 ### How to Create a Specific Name
 - We only need to make sure that name is unique in one a blueprint graph.Because we can combine a object reference and this name.
