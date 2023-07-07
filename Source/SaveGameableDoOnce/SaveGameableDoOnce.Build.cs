@@ -1,7 +1,6 @@
-// Copyright Sun BoHeng(LingFeng) 2022
+// Copyright Sun BoHeng(LingFeng) 2023
 
 using UnrealBuildTool;
-
 
 public class SaveGameableDoOnce : ModuleRules
 {
@@ -38,9 +37,6 @@ public class SaveGameableDoOnce : ModuleRules
 			{
 				"CoreUObject",
 				"Engine",
-				"Kismet"
-				
-
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

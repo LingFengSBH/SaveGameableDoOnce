@@ -1,9 +1,10 @@
-// Copyright Sun BoHeng(LingFeng) 2022
+// Copyright Sun BoHeng(LingFeng) 2023
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
+#include "Engine/World.h"
 #include "DoOnceImplementation.generated.h"
 
 //forward declaration UWorld to avid some strange issue when packaging
