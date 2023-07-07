@@ -38,7 +38,7 @@ void UK2Node_SGDoOnce::AllocateDefaultPins()
 	->PinToolTip = TEXT("The object name of this pin \n\nThis Plugin use this name to create key for each pin\ne.g. If this name is K2Node_SGDoOnce_14,the key will be '14'");
 
 	CreatePin(EGPD_Input,UEdGraphSchema_K2::PC_Boolean,NAME_None,nullptr,TEXT("EfficientMode"))
-	->PinToolTip = TEXT("Switch the mode of this node \n\n*If false,each time execute and reset will call functions in subsystem and check 'Do Once state' of this node \n*If true,some temporary boolean will be created to avoid checing every time you execute or reset \n\n*But in EfficientMode the node will not sync with SaverSubsystem if you override the 'Do Once state' in subsystem \n*If you load your game without refresh your objects,it's better to be false");
+	->PinToolTip = TEXT("Switch the mode of this node \n\n*If false,each time execute and reset will call functions in subsystem and check 'Do Once state' of this node \n*If true,some temporary boolean will be created to avoid checking every time you execute or reset \n\n*But in EfficientMode the node will not sync with SaverSubsystem if you override the 'Do Once state' in subsystem \n*If you load your game without refresh your objects,it's better to be false");
 }
 
 FSlateIcon UK2Node_SGDoOnce::GetIconAndTint(FLinearColor& OutColor) const

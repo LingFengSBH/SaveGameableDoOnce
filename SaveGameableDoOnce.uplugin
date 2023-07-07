@@ -7,12 +7,12 @@
 	"Category": "Other",
 	"CreatedBy": "SunBoHeng(LingFeng)",
 	"CreatedByURL": "https://space.bilibili.com/168173226?spm_id_from=333.1007.0.0",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
+	"DocsURL": "https://docs.google.com/document/d/1JMRQdr_A2txk5HMtfROjbZErElIZVKur/edit?usp=sharing&ouid=112371780473520018513&rtpof=true&sd=true",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/36ec03f1f27347d3813ab6e75a8b64eb",
+	"SupportURL": "2523355376@qq.com",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
+	"IsExperimentalVersion": true,
 	"Installed": false,
 	"Modules": [
 		{
