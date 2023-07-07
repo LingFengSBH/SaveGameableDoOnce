@@ -1,4 +1,4 @@
-// Copyright Sun BoHeng(LingFeng) 2022
+// Copyright Sun BoHeng(LingFeng) 2023
 
 #pragma once
 
@@ -13,7 +13,7 @@ struct FDoOnceInfos
 	GENERATED_BODY()
 
 	//int32 as a key for each K2Node_SGDoOnce node,bool stores if this DoOnce has excuted
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite,Category = "SaveGameableDoOnce|SaverSubsystem")
 	TMap<int32,bool> Info;
 	
 	FDoOnceInfos():Info(TMap<int32,bool>()){};
@@ -34,11 +34,11 @@ class SAVEGAMEABLEDOONCE_API UDoOnceSaverSubsystem : public UGameInstanceSubsyst
 
 public:
 	//Called when a K2Node_SGDoOnce node has executed successfully
-	UPROPERTY(BlueprintAssignable)
+	UPROPERTY(BlueprintAssignable,Category = "SaveGameableDoOnce|SaverSubsystem")
 	FDoOnceDelegate OnceHasDone;
 
 	//Called when a K2Node_SGDoOnce node has been reset
-	UPROPERTY(BlueprintAssignable)
+	UPROPERTY(BlueprintAssignable,Category = "SaveGameableDoOnce|SaverSubsystem")
 	FDoOnceDelegate DoOnceHasReset;
 
 	//Get HasDoneMap in subsystem

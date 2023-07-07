@@ -1,8 +1,6 @@
-// Copyright Sun BoHeng(LingFeng) 2022
+// Copyright Sun BoHeng(LingFeng) 2023
 
 #include "DoOnceSaverSubsystem.h"
-
-
 
 bool UDoOnceSaverSubsystem::TryToDo(UObject* Object,int32 Key, bool StartClosed)
 {

@@ -1,5 +1,4 @@
-// Copyright Sun BoHeng(LingFeng) 2022
-
+// Copyright Sun BoHeng(LingFeng) 2023
 #include "SGDoOnceEditorNode.h"
 
 #include "Interfaces/IPluginManager.h"
