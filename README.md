@@ -7,7 +7,7 @@ A plugin for UnrealEngine,provides a blueprint node like "Do Once",but can be sa
 - Save&LoadGame,DeBug : SaveGameableDoOnce/Content/Example/Blueprints/BP_SGDO_Player
 ## Background
 - Our team is developing a first person story game,there are many "Do Once" in our project for some triggers to call events,play sequences and jumpscares...We didn't realize how annoying it is until we start to bulid our save game system.
-- Native "Do Once" node doesn't support save game,if we want to save these "Do Once",we need to create a boolean for each of them and replace them with branches,and,traverse all of them when saving,initialize them after loading.Or,serilize these objects.
+- Native "Do Once" node doesn't support save game,if we want to save these "Do Once",we need to create a boolean for each of them and replace them with branches,and,traverse all of them when saving,initialize them after loading.Or,serialize  these objects.
 - So I developed this plugin,and finished our save game system by simply replacing the blueprint of "Do Once" macro in engine:-)
 ## How It be Realized
 ### Main Idea
